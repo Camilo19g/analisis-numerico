@@ -1,8 +1,9 @@
 import numpy as np
+import math
 
 
 def g(x):
-    return (x*np.sin(x))-1
+    return (x**3)-(2*x)-5
 
 
 tols = [10**-8, 10**-16, 10**-32, 10**-56]
